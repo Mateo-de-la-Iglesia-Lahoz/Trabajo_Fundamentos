@@ -23,9 +23,11 @@ Estos errores me ayudaron a aprender conceptos clave de desarrollo web que no ha
 
 - **Problemas al trabajar con Git**: Cometí el error de hacer muchos cambios antes de guardar un solo commit. Me costó entender cómo hacer commits pequeños y significativos. Al final aprendí a realizar un commit cada vez que añadía o modificaba una sección del sitio (como se pedía en las indicaciones).
 
+- **Vuelta a empezar**: Durante la finalización del trabajo tuve que eliminar por completo el repositorio que había creado, debido a una confusión al eliminar una carpeta. Esto hizo que en Visual Studio Code se me complicase la tarea de subir los archivos al Github, así que decidí empezar de nuevo con otro repositorio. La tarea de hacer otra vez los distintos archivos que tiene este repositorio no fue una tarea difícil, ya que antes de eliminar la carpeta copié todos los datos de los archivos en un archivo (.docx).
+
 ## Conclusiones
 
-Este proyecto me ha permitido aplicar de forma práctica los conocimientos adquiridos en HTML, CSS y organización de un sitio web profesional. Además, ha fomentado habilidades clave como:
+Este proyecto me ha permitido aplicar de forma práctica los conocimientos adquiridos durante las clases de Fundamentos. Además, ha fomentado habilidades clave como:
 
 - Documentación y estructuración de información técnica.
 - Organización de código y carpetas en un entorno de desarrollo como VSCode.
