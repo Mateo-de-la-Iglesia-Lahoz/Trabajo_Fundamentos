@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mateo de la Iglesia Lahoz - Inicio</title>
+  <style>
+    /* Estilos generales */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    /* Cabecera estilizada */
+    header {
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+    }
+    header .title {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    header nav ul li {
+      margin-left: 20px;
+    }
+    header nav ul li a {
+      color: #fff;
+      font-weight: bold;
+    }
+    header nav ul li a:hover {
+      color: #ff0000;
+    }
+    /* Contenido principal */
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    main h1 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+    main p {
+      line-height: 1.6;
+      margin-bottom: 1em;
+    }
+    main ul {
+      list-style: disc inside;
+      padding-left: 0;
+      margin-bottom: 2em;
+    }
+    main ul li {
+      margin: 5px 0;
+    }
+    /* Sección visual con íconos (bloque .menu) */
+    .menu {
+      background-color: #000;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .menu a {
+      color: #fff;
+      margin: 0 15px;
+      font-size: 1.5em;
+    }
+    .menu a:hover {
+      color: #ff0000;
+    }
+    /* Pie de página estilizado */
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 15px 10px;
+    }
+    footer .credits {
+      font-size: 0.9em;
+    }
+    footer .credits span {
+      color: #ff0000;
+    }
+    /* Estilos responsive */
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      header .title {
+        margin-bottom: 10px;
+      }
+      header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      header nav ul li {
+        margin: 5px 0;
+      }
+      .menu a {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 1.5em;
+      }
+    }
+  </style>
+  <!-- Enlace a Font Awesome para los íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha384-XXXXXXXX" crossorigin="anonymous" />
+</head>
+<body>
+  <header>
+    <div class="title">Mateo de la Iglesia Lahoz</div>
+    <nav>
+      <ul>
+        <li><a href="public/about.html">Acerca de mí</a></li>
+        <li><a href="public/degree.html">Mi Grado</a></li>
+        <li><a href="public/topic.html">Tema de Interés</a></li>
+        <li><a href="public/net.html">Red de compañeros</a></li>
+        <li><a href="public/contacts.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>¡Bienvenidos a mi página web personal!</h1>
+    <p>Este sitio web es un proyecto académico creado para la asignatura Fundamentos de Ingeniería Informática. Aquí podrás encontrar información sobre mí, mi formación académica y mis intereses en el campo de la informática. A través de las distintas secciones, podrás conocer más acerca de mi perfil, explorar un tema tecnológico de mi interés, ver enlaces a las páginas de mis compañeros y ponerte en contacto conmigo.</p>
+    <p>Utiliza el menú de navegación superior o los siguientes enlaces para explorar las secciones del sitio:</p>
+    <ul>
+      <li><a href="public/about.html">Acerca de mí:</a> Conoce mi perfil personal, incluyendo una breve biografía, mi currículum vitae y algunas de mis redes sociales.</li>
+      <li><a href="public/degree.html">Mi Grado:</a> Información sobre el Grado en Ingeniería Informática que estoy cursando, su propósito, estructura y asignaturas (incluyendo una página dedicada a la asignatura Fundamentos de Ingeniería Informática).</li>
+      <li><a href="public/topic.html">Tema de interés:</a> Una página temática donde profundizo en un tema de tecnología de mi elección que me resulta apasionante.</li>
+      <li><a href="public/net.html">Red de compañeros:</a> Enlaces a las páginas web de mis compañeros de clase, para conocer sus proyectos y perfiles.</li>
+      <li><a href="public/contacts.html">Contacto:</a> Un formulario simple que puedes utilizar para ponerte en contacto conmigo directamente.</li>
+    </ul>
+    <p>¡Gracias por visitar mi sitio web! Espero que disfrutes navegando por él y conociendo más sobre mí y mi formación en Ingeniería Informática.</p>
+    
+    <div class="menu">
+      <div class="menu-content">
+        <div class="menu-item">
+          <img src="./images/location-white.png" alt="Location Icon" class="menu-icon">
+          <p>Universidad Francisco de Vitoria - Pozuelo de Alarcón - Madrid</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="./images/telephone-white.png" alt="Phone Icon" class="menu-icon">
+          <p>+34 611 675 727</p>
+        </div>
+
+        <div class="menu-item">
+          <img src="./images/envelope-white.png" alt="Email Icon" class="menu-icon">
+          <p>9507391@alumnos.ufv.es</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="credits">© 2025 - Sitio desarrollado por Mateo de la Iglesia Lahoz para la asignatura <span>Fundamentos de Ingeniería Informática</span>.</p>
+  </footer>
+</body>
+</html>
