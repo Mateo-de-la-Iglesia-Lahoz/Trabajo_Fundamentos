@@ -51,5 +51,14 @@ Puedes utilizar y modificar libremente el código de este sitio para adaptarlo a
 
 Este proyecto se distribuye bajo la licencia MIT, lo que significa que puedes usar, modificar y distribuir el código libremente, siempre y cuando incluyas la nota de copyright y la renuncia de garantía. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
+## Gitignore
+
+El archivo `.gitignore` está configurado para ignorar archivos y carpetas que no son relevantes para el control de versiones en un proyecto web básico. Esto incluye archivos temporales del sistema operativo, configuraciones locales de entornos de desarrollo (por ejemplo, la carpeta de VSCode) y dependencias o build artifacts (en caso de que los hubiera).
+
+Explicación:
+
+Se ignora `node_modules/` por si en algún momento se utilizan herramientas de construcción o dependencias (en este proyecto no se usan, pero es una práctica común). Las carpetas `dist/` o `build/` serían para archivos generados (no aplican en este caso, pero se incluyen como precaución). La carpeta oculta `.vscode/` contiene ajustes locales de Visual Studio Code que no deben subirse al repositorio. Los archivos `.DS_Store` (para macOS) y `Thumbs.db` (para Windows) son archivos de sistema innecesarios. 
+Esto `*.log` ignora automáticamente todos los archivos que terminen en `.log`, sin importar en qué carpeta estén, manteniendo tu repositorio más limpio y profesional.
+
 ---
 *Desarrollado por Mateo de la Iglesia Lahoz como proyecto de la asignatura Fundamentos de la Ingeniería Informática, 2025.*
