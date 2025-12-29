@@ -1,0 +1,16 @@
+# Node.js dependency folder (if any)
+node_modules/
+
+# Build output directories (example)
+dist/
+build/
+
+# VSCode project settings
+.vscode/
+
+# MacOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
