@@ -12,7 +12,7 @@ La estructura de archivos y directorios es la siguiente:
   - **degree.html** – Sección "Grado" con información general sobre el Grado en Ingeniería Informática.
   - **fii.html** – Sección dedicada a la asignatura Fundamentos de la Ingeniería Informática (objetivos, contenidos, etc).
   - **topic.html** – Sección "Tema" con un artículo sobre el chip cuántico *Majorana 1* de Microsoft.
-  - **net.html** – Sección "Red de compañeros" (enlaces a sitios de compañeros, inicialmente en construcción).
+  - **net.html** – Sección "Red de compañeros" (enlaces a sitios de compañeros).
   - **contact.html** – Sección "Contacto" con un formulario de contacto (no funcional, solo HTML).
 - **/css/** – Carpeta de estilos:
   - **style.css** – Hoja de estilo común utilizada por todas las páginas.
@@ -27,7 +27,7 @@ Para visualizar el sitio web, abre el archivo `index.html` en un navegador web. 
 
 Si has clonado este repositorio, simplemente abre `index.html` con tu navegador (por ejemplo, haciendo doble clic sobre el archivo o usando la opción "Open with Live Server" en Visual Studio Code).
 
-Además, este sitio está preparado para publicarse usando **GitHub Pages**. Si se configura el repositorio para Pages, la página debería estar disponible en una URL pública (por ejemplo, `https://<usuario>.github.io/<repositorio>/`). En ese caso, la navegación entre páginas funcionará correctamente mediante los enlaces relativos ya configurados.
+Además, este sitio está preparado para publicarse usando **GitHub Pages**. Si se configura el repositorio para Pages, la página debería estar disponible en una URL pública (`https://mateo-de-la-iglesia-lahoz.github.io/Trabajo_Fundamentos/`). En ese caso, la navegación entre páginas funcionará correctamente mediante los enlaces relativos ya configurados.
 
 ## Uso y Personalización
 
