@@ -8,7 +8,7 @@ La estructura de archivos y directorios es la siguiente:
 
 - **index.html** – Página principal que introduce el sitio web.
 - **/public/** – Carpeta que contiene las demás páginas HTML del sitio:
-  - **about.html** – Sección "Sobre mí" con biografía y CV resumido.
+  - **about.html** – Sección "Acerca de mi vida" con biografía, mi Currículum Vitae y algún enlace a mis redes sociales.
   - **degree.html** – Sección "Grado" con información general sobre el Grado en Ingeniería Informática.
   - **fii.html** – Sección dedicada a la asignatura Fundamentos de la Ingeniería Informática (objetivos, contenidos, etc).
   - **topic.html** – Sección "Tema" con un artículo sobre el chip cuántico *Majorana 1* de Microsoft.
@@ -16,7 +16,7 @@ La estructura de archivos y directorios es la siguiente:
   - **contact.html** – Sección "Contacto" con un formulario de contacto (no funcional, solo HTML).
 - **/css/** – Carpeta de estilos:
   - **style.css** – Hoja de estilo común utilizada por todas las páginas.
-- **/images/** – Carpeta donde se almacenan las imágenes utilizadas en el sitio (fotos de perfil, ilustraciones, etc.).
+- **/images/** – Carpeta donde se almacenan las imágenes utilizadas en el sitio (fotos de perfil, ilustraciones, etc).
 - **README.md** – Este documento de descripción y guía del proyecto.
 - **LICENSE** – Licencia de uso (MIT License) para el contenido de este repositorio.
 - **.gitignore** – Archivo de configuración para ignorar archivos innecesarios en el control de versiones.
