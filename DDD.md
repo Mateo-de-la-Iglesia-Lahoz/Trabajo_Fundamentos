@@ -10,7 +10,7 @@ El sitio está desarrollado íntegramente en HTML y CSS, con una estructura orga
 - Páginas adicionales en la carpeta `public/` que abarcan información personal, académica, temática y de contacto.
 - Una hoja de estilos compartida en la carpeta `css/`.
 - Imágenes y recursos visuales organizados en la carpeta `images/`.
-- Documentación auxiliar (`README.md`, `.gitignore`, `LICENSE`) en la raíz del proyecto.
+- Documentación auxiliar (`README.md`, `.gitignore`, `LICENSE`, `DDD.md`) en la raíz del proyecto.
 - Publicación en GitHub Pages y control de versiones a través de commits separados por sección.
 
 ## Problemas durante el desarrollo
@@ -34,4 +34,4 @@ Este proyecto me ha permitido aplicar de forma práctica los conocimientos adqui
 - Uso de Git y GitHub para control de versiones, colaboración y publicación.
 - Valoración crítica del papel del ingeniero informático en la sociedad y reflexión sobre el desarrollo ético y responsable de la tecnología.
 
-El sitio refleja tanto el contenido académico trabajado en la asignatura, como el compromiso personal que he tenido a la hora de hacer este sitio web.
+El sitio refleja tanto el contenido académico trabajado en la asignatura, como el compromiso personal que se ha tenido a la hora de crear este sitio web.
