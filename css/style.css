@@ -148,6 +148,18 @@ form.contact-form textarea:focus {
 }
 
 /* Pie de página */
+.location-text {
+  color: #ffffff; /* Color blanco para la ubicación */
+}
+
+.phone-text {
+  color: #ffffff; /* Color blanco para el teléfono */
+}
+
+.email-text {
+  color: #ffffff; /* Color blanco para el correo electrónico */
+}
+
 footer {
   background-color: #333;
   color: #fff;
