@@ -8,10 +8,10 @@ La estructura de archivos y directorios es la siguiente:
 
 - **index.html** – Página principal que introduce el sitio web.
 - **/public/** – Carpeta que contiene las demás páginas HTML del sitio:
-  - **about.html** – Sección "Acerca de mi vida" con biografía, mi Currículum Vitae y algún enlace a mis redes sociales.
+  - **about.html** – Sección "Acerca de mí" con biografía, mi Currículum Vitae y algún enlace a mis redes sociales.
   - **degree.html** – Sección "Grado" con información general sobre el Grado en Ingeniería Informática.
   - **fii.html** – Sección dedicada a la asignatura Fundamentos de la Ingeniería Informática (objetivos, contenidos, etc).
-  - **topic.html** – Sección "Tema" con un artículo sobre el chip cuántico *Majorana 1* de Microsoft.
+  - **topic.html** – Sección "Tema de Interés" con un artículo sobre el chip cuántico *Majorana 1* de Microsoft.
   - **net.html** – Sección "Red de compañeros" (enlaces a sitios de compañeros).
   - **contact.html** – Sección "Contacto" con un formulario de contacto (no funcional, solo HTML).
 - **/css/** – Carpeta de estilos:
