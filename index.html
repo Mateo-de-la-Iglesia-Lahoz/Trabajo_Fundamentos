@@ -18,32 +18,33 @@
     }
     /* Cabecera estilizada */
     header {
-      background-color:  #13018d;
-      color: #fff;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 20px;
+  background-color: #333;
     }
-    header .title {
-      font-size: 1.5em;
-      font-weight: bold;
-    }
-    header nav ul {
+    .navbar {
       list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       margin: 0;
       padding: 0;
-      display: flex;
     }
-    header nav ul li {
-      margin-left: 20px;
+    .navbar li {
+      margin: 0;
     }
-    header nav ul li a {
+    .navbar a {
+      display: block;
+      padding: 12px 20px;
       color: #fff;
+      text-decoration: none;
       font-weight: bold;
     }
-    header nav ul li a:hover {
-      color: #ff0000;
+    .navbar a:hover,
+    .navbar a:focus {
+      background-color: #555;
+      outline: none;
+    }
+    .navbar .active {
+      background-color: #111;
     }
     /* Contenido principal */
     main {
